@@ -1,0 +1,93 @@
+Package: com.amirhacks.debup2.0
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirhacks <amirramos39@gmail.com>
+Depends: dpkg-perl, git
+Filename: ./debs/com.amirhacks.debup2.0_1.0.0_iphoneos-arm.deb
+Size: 2908
+MD5sum: 00860dcd9ded1d783581d4ab551f88b4
+SHA1: 905ac15287469d5f8b3e9762ab904677e5b249e0
+SHA256: 194b16a9f7639e1be3909d080e34171c5a4baac9dc9a47622844a7ec94163f91
+Section: Tweaks
+Homepage: https://twitter.com/amirhacksph
+Description: A command line for developers to manage and upload deb packages to cydia repo (Github cydia repo) with a single click.
+Author: Moose <amirramos39@gmail.com>
+Depiction: https://amirhacks.github.io/repo/depictions/?p=com.amirhacks.debup2.0
+Name: debup2.0
+
+Package: com.amirhacks.fakeiosactiveiccid14
+Version: 1.4
+Architecture: iphoneos-arm
+Maintainer: amirdev <amirramos39@gmail.com>
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.amirhacks.fakeiosactiveiccid14_1.4_iphoneos-arm.deb
+Size: 1582
+MD5sum: 828ade5ee72355be2c3ca6b33b8ce4cd
+SHA1: a464cb1c0083def3368e8b046e28fe4a6682406d
+SHA256: f4edd8dd589f035d81bec037d8d07a0e82437884be2255d5346a259fb1fa2edf
+Section: Tweak
+Description: FakeIOS14ACTIVEICCID
+Author: amirdev <amirramos39@gmail.com>
+Depictions: https://amirhacks.github.io/repo/depictions/?p=com.amirhacks.iosiccid
+Name: FakeIOSACTIVEICCID
+
+Package: com.rileytestut.altdaemon
+Version: 0.1
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Depends: firmware (>=12.2)
+Filename: ./debs/AltDaemon.deb
+Size: 873258
+MD5sum: 1bbb0546d88a0011cf1311acc66afca4
+SHA1: 76a657be16ab1f7ee56dfa5297e6c21cc43f46df
+SHA256: fbf46faaeb7a3ee3d9d6c1071394a12bb0ccb1832213440ce5c5a9347c9950b6
+Section: System
+Description: AltDaemon allows AltStore to install and refresh apps without a computer.
+Author: Riley Testut - T7Y
+Name: AltDaemon
+
+Package: com.rileytestut.altstore.alpha.jailbroken
+Version: 1.4a4
+Architecture: iphoneos-arm
+Maintainer: Riley Testut
+Depends: firmware (>=12.2), com.rileytestut.altdaemon
+Filename: ./debs/com.rileytestut.AltStore.Alpha.Jailbroken_iphoneos-arm.deb
+Size: 3124474
+MD5sum: e9824193c0d561e1617a70fb0529dc4a
+SHA1: 84f8f2cf8503853f00119428b7834cfb07462bc8
+SHA256: 07f33096485919cf8b5718a52508b1351bdf296e38ef9ce66af7fb9935cca3e8
+Section: Tweaks
+Description: Jailbroken version of AltStore with on device signing feauture.
+Author: Riley Testut - T7Y
+Name: AltStore (ALPHA)
+
+Package: ru.rj.amongos
+Version: 2.1
+Section: Themes 
+Maintainer: amirhacks
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: ./debs/ru.rj.amongos_2.1_iphoneos-arm.deb
+Size: 16236588
+MD5: 4580ca4a45086f2bf4e08ae4dae7bfa5
+Name: AmongOS
+Author: amirhacks
+depictions: https://rejail.ru/depiction.php?file=amongos
+
+Package: com.moose.insurl
+Version: 2.6.2
+Architecture: iphoneos-arm
+Maintainer: amirhacks <amirramos39@gmail.com>
+Installed-Size: 3,6
+Depends: wget, coreutils, com.linusyang.appinst
+Filename: ./debs/com.moose.insurl.deb
+Size: 3362
+MD5sum: de26cdee7e35d0ecf0664d9fac8324de
+SHA1: f63dad723b6e5e271d5e5a1acb7446536eda687b
+SHA256: bc62acfee9e8202f3309e6b2047a4aeb511c7d00255cbd9452a40f5ec9e33e13
+Section: Utilities
+Homepage: https://github.com/amirhacks
+Description: A Command line utility to install deb packages with url.
+Tag: role::enduser, purpose::console
+Author: amirhacks <amirramos39@gmail.com>
+Depiction: https://memoose.github.io/repo/depic/Insurl.html
+Name: Insurl

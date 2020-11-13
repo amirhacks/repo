@@ -1,0 +1,23 @@
+<package>
+	<id>com.amirhacks.iosiccid</id>
+	<name>FAKEIOSICCID</name>
+	<version>1.4</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>12.0</maxiOS>
+			<otherVersions>unsupported</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Active Ios Iccid </description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>

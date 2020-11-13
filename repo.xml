@@ -1,0 +1,14 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>Follow me on Twitter</name>
+			<url>https://twitter.com/amirhacksph</url>
+			<iconclass>fa fa-twitter</iconclass>
+		</link>
+		<link>
+			<name>cydia repo template</name>
+			<url>https://github.com/supermamon/Reposi3/</url>
+			<iconclass>fa fa-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>

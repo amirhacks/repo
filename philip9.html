@@ -322,13 +322,13 @@ function go_(){
 }
 
 function loadRes(){
-  console.log("Downloading Base System");
+  console.log("Downloading resources");
   document.getElementById('bigButton').innerHTML = "Downloading Resources"
   setTimeout(function () {
-    filestream = load_binary_resource("https://amirhacks.github.io/payload/payload/stage1.bin")
-    payload_tar = getArrFromResource(load_binary_resource("https://amirhacks.github.io/payload/payload/tar"))
-    payload_launchctl = getArrFromResource(load_binary_resource("https://amirhacks.github.io/payload/payload/launchctl"))
-    payload_offsets = getArrFromResource(load_binary_resource("https://amirhacks.github.io/payload/payload/offsets.json"))
+    filestream = load_binary_resource("stage1.bin")
+    payload_tar = getArrFromResource(load_binary_resource("payload/tar"))
+    payload_launchctl = getArrFromResource(load_binary_resource("payload/launchctl"))
+    payload_offsets = getArrFromResource(load_binary_resource("payload/offsets.json"))
 
     document.getElementById('bigButton').innerHTML = "Downloading Cydia"
     setTimeout(function () {
@@ -339,33 +339,20 @@ function loadRes(){
 }
 </script>
 
+
+<center>
+  Jailbreak for<br>
+  iOS 9.1 - iOS 9.3.4 <br>
+  (32bit only) <br>
+  <br>
+  <br>
+  If this jailbreak doesn't work for you, please use <a href="http://wall.supplies">HomeDepot</a> instead!<br>
   <br>
   <div id="stuff">
     <div id="bigButton" style="font-size:42px;font-family: Arial Black,Arial Bold,Gadget,sans-serif">
-      <a href="javascript:loadRes()"> JAILBREAK</a>
+      <a href="javascript:loadRes()">GO</a>
     </div>
-  <br>
-  <br>
-  <br>
-  <center>Jailbreak for ios 9-9.3 32-bit thanks to all respective AUTHORS<center>
-</center>
-</body>
-</html>
-<!--
------BEGIN PGP SIGNATURE-----
+    <br>
+    
 
-iQIzBAEBCAAdFiEEhP4n5saWZp3fpLDl/96aHmqiD60FAlooZiIACgkQ/96aHmqi
-D60Eaw//Xts7TiZvTw8kexR8fCDot+IZU7xLYnrfB9qPVUXHo0ePHUPaYcPCLvBI
-lxl0vxeUIaauLqbNRxi//x8DzsCRi9/rsvHAjJPQDrm5+28WiMm4zbL0D9zVQWCu
-0P+NR3VYBFq8L2yA5/5+opkF37gLvNnP9er8hUux2U6sdfbbzFU7sStNeceBq3di
-l5/WKNd6iH5EbGjCrxA3DbJxNU/sFbrSASUkwdyU+Epsf/nwoN2WOhhqHRJDatyI
-fEWjnuDBjtcOFOYFmWc34wrtznmjiOob2Nrd24XOlLzXj4PJ82J/3l5Tx/kh9OM9
-3Im/NZZpVRjkiyyNtOqfbWClvpitYpKqBnA/utfR30DNWDeLntX8WIoiLdkJ7BF3
-d1eBivSQfWrNYiv1M5IcXjH/bP5nPJRXDYzR8LFfb9KTu37BJIjtNwt6KUJ8z8Gh
-Clp/gbMCJ7X7cuYISH4MRQTL/N3sAGUyNu8L4MXt7Scyudsd0klvEVA1rHeifzQ8
-/Zxyboq3uI4DZZ0LTl+4zE1iUHj3mQJBWWVqUcTjEHk9fRDqaq3i9NWnBKRHj20h
-JqwRJTTjp4zKZsJ4i/80aAAm25DEhCj6Ik50BUFwQRGiuIHS0jV+WoPsi+Tz3m/5
-//h0h1akeIKkYFRVZ9AS1YtIQIkvgqmhHvBOclV+hwk59GWwwmA=
-=RqDq
------END PGP SIGNATURE-----
--->
+

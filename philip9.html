@@ -239,7 +239,7 @@ function go_(){
   console.log("after="+stale.length);
 
   if (stale.length != 0x41414141){
-    alert("exploit failed");
+    alert("exploit is failed please reload the page and try again");
     location.reload();
     return;
   }
@@ -322,7 +322,7 @@ function go_(){
 }
 
 function loadRes(){
-  console.log("Downloading Base System");
+  console.log("Downloading Base System ");
   document.getElementById('bigButton').innerHTML = "Downloading Resources"
   setTimeout(function () {
     filestream = load_binary_resource("stage1.bin")
@@ -346,13 +346,11 @@ function loadRes(){
   (32bit only) <br>
   <br>
   <br>
-  If this jailbreak doesn't work for you, please use <a href="http://wall.supplies">HomeDepot</a> instead!<br>
+  <br>
   <br>
   <div id="stuff">
     <div id="bigButton" style="font-size:42px;font-family: Arial Black,Arial Bold,Gadget,sans-serif">
-      <a href="javascript:loadRes()">GO</a>
+      <a href="javascript:loadRes()">JailbreakNow</a>
     </div>
     <br>
     
-
-

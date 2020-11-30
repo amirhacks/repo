@@ -1,0 +1,121 @@
+Package: com.amirdev
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirdev
+Installed-Size: 72
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.amirdev_0.0.1-1+debug_iphoneos-arm.deb
+Size: 2096
+MD5sum: d3b521f6956991fb17f66fa6feffcd97
+SHA1: aa50e3da632e0b34da446d99c12fb43a23a6d47a
+SHA256: 8efe61a99c350bb724e36ca5ad9819ecb9e4ac89f45bc643c54cae9757bf01c1
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: amirdev
+Name: NotiTweak
+
+Package: com.amirdev.cydia.commercial
+Version: 3.1.19
+Architecture: iphoneos-arm
+Maintainer: iTweakiOS <itweakios@yahoo.com.com>
+Pre-Depends: firmware (>= 13)
+Depends: com.yourepo.itweakios.ccpatch10
+Filename: ./paidTweaks/com.amirdev.cydia.commercial_3.1.19_iphoneos-arm.deb
+Size: 5523700
+MD5sum: 3afdc0b656520e09d3d4f127eead0d3e
+SHA1: c101327983ed6d75dc572670c4e0151914fedbe5
+SHA256: 5132e76d7e5628e251114b16e2e0fb5e49c5bbe2fa97ab7ef03379cf35a9996f
+Section: Tweaks
+Description: Enables hidden features, introduces new features, amplifies cell signal, amplifies data speeds and more!
+Author: iTweakiOS <itweakios@yahoo.com>
+Name: paidTweak
+
+Package: com.amirhacks.NoNameApp
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirhacks
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debs/com.amirhacks.NoNameApp_0.0.1-1+debug_iphoneos-arm.deb
+Size: 5250
+MD5sum: f20c74d70be638493e0c19156319cb81
+SHA1: e7549bb01ef8712925457f4187fe9e865dbaa9d6
+SHA256: d4c1155517853ccc29d4422bca8534730169ea372ba9981f38e75d9af92da460
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: amirhacks
+Name: NoNameApp
+
+Package: com.amirhacks.amonglock
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: AmirHacks <hiya@litten.love>
+Installed-Size: 24060
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 13.0)
+Filename: ./debs/com.amirhacks.amonglock_1.1_iphoneos-arm.deb
+Size: 21426548
+MD5sum: 4ead9cffd629f7a3606313921b966a7d
+SHA1: b0ac880799616f86a695cb6e39235b903619cffd
+SHA256: 051c83e2424774b7f56b00adac7fd1f892afe69b67c53509d84e416f36bb3246
+Section: Tweaks
+Description: You were not the owner of this device
+Author: AmirHacks <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/alk/index.html
+Icon: https://repo.litten.love/depictions/alk/assets/icon.png
+Name: AmongUsLock
+Sileodepiction: https://repo.litten.love/depictions/alk/alk.json
+
+Package: com.pwn20wnd.noplsocsp
+Version: 1.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: Pwn20wnd <pwn20wndstuff@gmail.com>
+Installed-Size: 140
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, cy+cpu.arm64
+Filename: ./debs/com.pwn20wnd.noplsocsp_1.0-1+debug_iphoneos-arm.deb
+Size: 6026
+MD5sum: f084704d1fdb410c4a088b1a4f9cc365
+SHA1: 30348f11c514fc47d750f2b925214e3e028fd33c
+SHA256: ed6f871109d5e11fd7eb158b2e715e83e94071afd2b297a2774dad096d29b615
+Section: System
+Description: Blocks the Apple OCSP servers to block the certificates from getting revoked.
+Tag: role::hacker
+Author: Pwn20wnd <pwn20wndstuff@gmail.com>
+Name: NoPlsOCSP
+
+Package: com.rpgfarm.a-bypass
+Version: 1.4.4
+Architecture: iphoneos-arm
+Maintainer: amirhacks <amirramos39@gmail.com>
+Installed-Size: 784
+Depends: mobilesubstrate, com.muirey03.libmryipc, applist, com.rpgfarm.libaptoast
+Filename: ./debs/com.rpgfarm.a-bypass_1.4.4_iphoneos-arm.deb
+Size: 134992
+MD5sum: 1fd45228f4b19a7ee62573dc56fc0db7
+SHA1: d7a1ce338d229ecfd6c967e63eb951b6db54f6e4
+SHA256: 92d3745c379a12c536852e8375b387d4ebb9db7a9e41da45dcdf253b37099490
+Section: Tweaks
+Description: Super Jailbreak detection bypass!
+Author: AmirHacks <pp121324@gmail.com>
+Name: A-Bypass
+
+Package: com.saurik.impactor
+Version: 0.9.42
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 7.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debs/Eraser_0.9.42.deb
+Size: 386598
+MD5sum: 2a6d07ba929227d41e1e36a608e84a53
+SHA1: ed0ea570d112beea23dddbfe65d923ba4e137a73
+SHA256: 78bc4eb75a217e1638a5901e82d5b984bd501995d82a56c0ad948f4a4c175d80
+Section: Utilities
+Priority: optional
+Description: specific utility to unjailbreak most devices
+Tag: purpose::uikit, role::enduser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+Name: Cydia Eraser
+

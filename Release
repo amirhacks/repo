@@ -1,8 +1,8 @@
 Origin: apt.amirhacks.dev
-Label: apt.ramos.com
+Label: apt.ramos.dev
 Suite: stable
 Version: 1.0
 Codename: amirhacks 
 Architectures: iphoneos-arm
 Components: main
-Description: apt.ramos.com
+Description: apt dev

@@ -1,8 +1,8 @@
-Origin: apt.amirhacks.dev
-Label: apt.ramos.dev
+Origin: amirhacks repo
+Label: amirhacks repo
 Suite: stable
 Version: 1.0
 Codename: amirhacks 
 Architectures: iphoneos-arm
 Components: main
-Description: apt dev
+Description: Official Apt Cydia Repo

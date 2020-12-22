@@ -1,8 +1,8 @@
-Origin: amirhacks repo
-Label: amirhacks repo
+Origin: Amirhacks repo
+Label: AmirHacks repo
 Suite: stable
 Version: 1.0
-Codename: amirhacks 
+Codename: AmirHacks 
 Architectures: iphoneos-arm
 Components: main
-Description: Official Apt Cydia Repo
+Description: Official  Cydia Repo

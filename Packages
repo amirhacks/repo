@@ -1,0 +1,117 @@
+Package: com.amirhacks.netflixalt
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirhacks
+Installed-Size: 148
+Filename: ./debs/com.amirhacks.netflixalt_1.0.0_iphoneos-arm.deb
+Size: 24648164
+MD5sum: 5de2e69fd035b65a045d02d4b5f003ec
+SHA1: d7d0a65db2e34b2d832bcdc4fecf12ae5ab35cd1
+SHA256: fef33244db92aaee2b7d445f388ddb309dd3565a2e3d7d6b10464e9703cf123a
+Section: Utilities
+Description: WATCH MOVIE FOR FREE
+Author: amirhacks
+Name: netflixalt
+
+Package: com.amirhacks.netflixalt
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: amirhacks
+Installed-Size: 148
+Filename: ./debs/com.amirhacks.netflixalt_1.0.1_iphoneos-arm.deb
+Size: 24648172
+MD5sum: 261121f11c8a317eb6449ff07adb6d88
+SHA1: a4ff70425710d1959fc07f31601dc94998906607
+SHA256: 494c84d13207a0568afe27b740c3a60b96d140e3a921aa25e61a56e0acd311f0
+Section: Utilities
+Description: WATCH MOVIE FOR FREE
+Author: amirhacks
+Name: netflixalt
+
+Package: com.amirhacks.uploaddeb
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirhacks <amirramos39gmail.com>
+Depends: dpkg-perl, git
+Filename: ./debs/com.amirhacks.uploaddeb_1.0.0_iphoneos-arm.deb
+Size: 2876
+MD5sum: 935e9252d247939b57c27a11c1467975
+SHA1: fc8f688d85df94e9d21195da0dd6de000df68e2a
+SHA256: 4d3295266a9aed60087febcc37c0ecf97b77dd21a87b12c0e44ad6c2fecc6977
+Section: Development
+Homepage: https://twitter.com/amirhacksph
+Description: A command line for developers to manage and upload deb packages to cydia repo (Github cydia repo) with a single click.
+Author: amirhacks <amirramos39@gmail.com>
+Name: uploaddeb
+
+Package: com.amirramos
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos
+Installed-Size: 876
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12.0)
+Filename: ./debs/com.amirramos_0.0.1-1+debug_iphoneos-arm.deb
+Size: 308090
+MD5sum: d9a39f23e7d2e4a821ec633bb959cc84
+SHA1: 58eb33cd276df99b84d17fc0af345eb54b2069a4
+SHA256: 68704a20e311cf3a5ccb1fefb0b13db01bbdecbfa8e0e3a86c944aa2a05f0f9f
+Section: Tweaks
+Description: Respring Device Fast
+Author: amirramos
+Icon: https://amirhacks.github.io/repo/png/icon.png
+Name: RespringFaster
+
+Package: com.amirramos.cleanhomescreen14
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: amirrmaos
+Installed-Size: 332
+Depends: firmware (>= 14.0),  mobilesubstrate,preferenceloader
+Filename: ./debs/com.amirramos.cleanhomescreen14_1.0.4_iphoneos-arm.deb
+Size: 24612
+MD5sum: 7b6ed7d717038912f376e5968a3f4a8d
+SHA1: 8db8fbccb9b4d00897380a2d5ad6a13c495d7207
+SHA256: 94506b6703d9db9838548be70f77719f5d04de05c8d1f282491581c71b7e7387
+Section: Tweaks
+Description: Remove all the clutter from your home screen and lock screen
+Author: amirramos
+Name: CleanHomeScreen14
+
+Package: com.amirramos.juin
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos <hiya@litten.love>
+Installed-Size: 1416
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/com.amirramos.juin_1.0.0-1+debug_iphoneos-arm.deb
+Size: 906872
+MD5sum: bddbcb17670c2dfe24719a5a5b81bf04
+SHA1: 7b83a2eaf1ccbe8cf32fcf797e8ab7462b75f5fa
+SHA256: 001374dab15872ac29371f07aef543ffb396fcf6fe355cd5759238845f090358
+Section: Tweaks
+Description: Spotify inspired lockscreen player
+Author: alexandra <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/jun/index.html
+Icon: https://repo.litten.love/depictions/jun/assets/icon.png
+Name: Juin
+Sileodepiction: https://repo.litten.love/depictions/jun/jun.json
+
+Package: com.amirrmaos.magsafe12
+Version: 1.0.0-2+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos
+Depends: firmware (>=12.0), firmware (>= 12.0)
+Filename: ./debs/com.amirrmaos.magsafe12_1.0.0-2+debug_iphoneos-arm.deb
+Size: 176580
+MD5sum: 29b9bc5eff4ea302f966863eeb849bda
+SHA1: 72da338e71f3c0d1bea7c9187b5ffc5148a517cc
+SHA256: 5d064f12940dc1765f6c8f4e55fd04868a22a5b5870eda22d8e6fe5b81e08cf0
+Section: Tweaks
+Description: MagSafe charging indicator just like iOS 14!
+Tag: role::Hacker
+Author: amirramos
+Icon: https://mtac.app/beta/assets/com.nahtedetihw.magsafe/icon.png
+Name: MagSafeEnabler12
+Someotherentrytocontrol: True
+Tags: compatible_min::ios12.0, compatible_max::ios14.0.1
+

@@ -1,0 +1,97 @@
+Package: com.amirhacks.netflixalt
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirhacks
+Installed-Size: 148
+Filename: ./debs/com.amirhacks.netflixalt_1.0.0_iphoneos-arm.deb
+Size: 24648164
+MD5sum: 5de2e69fd035b65a045d02d4b5f003ec
+SHA1: d7d0a65db2e34b2d832bcdc4fecf12ae5ab35cd1
+SHA256: fef33244db92aaee2b7d445f388ddb309dd3565a2e3d7d6b10464e9703cf123a
+Section: Utilities
+Description: WATCH MOVIE FOR FREE
+Author: amirhacks
+Name: netflixalt
+
+Package: com.amirhacks.netflixalt
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: amirhacks
+Installed-Size: 148
+Filename: ./debs/com.amirhacks.netflixalt_1.0.1_iphoneos-arm.deb
+Size: 24648172
+MD5sum: 261121f11c8a317eb6449ff07adb6d88
+SHA1: a4ff70425710d1959fc07f31601dc94998906607
+SHA256: 494c84d13207a0568afe27b740c3a60b96d140e3a921aa25e61a56e0acd311f0
+Section: Utilities
+Description: WATCH MOVIE FOR FREE
+Author: amirhacks
+Name: netflixalt
+
+Package: com.amirhacks.uploaddeb
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirhacks <amirramos39gmail.com>
+Depends: dpkg-perl, git
+Filename: ./debs/com.amirhacks.uploaddeb_1.0.0_iphoneos-arm.deb
+Size: 2876
+MD5sum: 935e9252d247939b57c27a11c1467975
+SHA1: fc8f688d85df94e9d21195da0dd6de000df68e2a
+SHA256: 4d3295266a9aed60087febcc37c0ecf97b77dd21a87b12c0e44ad6c2fecc6977
+Section: Development
+Homepage: https://twitter.com/amirhacksph
+Description: A command line for developers to manage and upload deb packages to cydia repo (Github cydia repo) with a single click.
+Author: amirhacks <amirramos39@gmail.com>
+Name: uploaddeb
+
+Package: com.amirramos.changelocktext
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos
+Installed-Size: 364
+Depends: mobilesubstrate
+Filename: ./debs/com.amirramos.changelocktext_0.0.1-1+debug_iphoneos-arm.deb
+Size: 58454
+MD5sum: 18f2fda4980362acdd26ae1e086b7bd9
+SHA1: 21f93e772c93d87cff042cf8060e9dfce9e35a77
+SHA256: 501e7e6fc77aa892420deacb223da870686130b7e50897d6eb45273c003b180e
+Section: Tweaks
+Description: An Awesome Mobilesusbtrate Tweak
+Author: amirramos
+Depiction: https://amirhacks.github.io/repo/depiction/ChangeLockText.html
+Name: ChangeLockText
+
+Package: com.amirramos.ifile
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos
+Installed-Size: 324
+Filename: ./debs/com.amirramos.ifile_1.0.0-1+debug_iphoneos-arm.deb
+Size: 26740
+MD5sum: 27789bc380e8110cf24b89cf57ea0c69
+SHA1: ef99741d2db99483eb6e2ced4e27ddcee9f676b2
+SHA256: 9ceeda3cc23ddcddb2522fe4ff3696fc8c25b308cf89d97533f9479f81d20a46
+Section: System
+Description: An awesome application!
+Author: amirramos
+Name: IFile
+
+Package: com.amirramos.juin
+Version: 1.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos <hiya@litten.love>
+Installed-Size: 1416
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.14), firmware (>= 12.0)
+Filename: ./debs/com.amirramos.juin_1.0.0-1+debug_iphoneos-arm.deb
+Size: 906872
+MD5sum: bddbcb17670c2dfe24719a5a5b81bf04
+SHA1: 7b83a2eaf1ccbe8cf32fcf797e8ab7462b75f5fa
+SHA256: 001374dab15872ac29371f07aef543ffb396fcf6fe355cd5759238845f090358
+Section: Tweaks
+Description: Spotify inspired lockscreen player
+Author: alexandra <hiya@litten.love>
+Depiction: https://repo.litten.love/depictions/jun/index.html
+Icon: https://repo.litten.love/depictions/jun/assets/icon.png
+Name: Juin
+Sileodepiction: https://repo.litten.love/depictions/jun/jun.json
+

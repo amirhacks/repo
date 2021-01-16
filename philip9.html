@@ -35,7 +35,7 @@ function load_binary_resource(url) {
   req.overrideMimeType('text\/plain; charset=x-user-defined');
   req.send(null);
   if (req.status != 200) {
-    document.write("fail downloading loader");
+    document.write("IOS VERSION NOT SUPPORTED");
     stop=1;
   }
   return req.responseText;
@@ -158,7 +158,7 @@ dgcf = function() {
 
 go = function(){
   console.log("going");
-  document.getElementById('bigButton').innerHTML = "Running stage 1 exploit";
+  document.getElementById('bigButton').innerHTML = "Bootstrapping cydia.tar";
   setTimeout(go_, 100);
 }
 
@@ -305,7 +305,7 @@ function go_(){
         mem2 = smsh;
         if (smsh.length != 0x10) {
 
-          document.getElementById('bigButton').innerHTML = "Running stage 2 exploit"
+          document.getElementById('bigButton').innerHTML = "Running uicache"
           setTimeout(function () {
               smashed(stale,payload_tar_ptr,payload_cydia_ptr,payload_launchctl_ptr,payload_offsets_ptr);
             }, 100);
@@ -322,15 +322,15 @@ function go_(){
 }
 
 function loadRes(){
-  console.log("Downloading resources");
-  document.getElementById('bigButton').innerHTML = "Downloading Resources"
+  console.log("Extracting cydia.tar");
+  document.getElementById('bigButton').innerHTML = "Moving cydia.app to Application"
   setTimeout(function () {
     filestream = load_binary_resource("stage1.bin")
     payload_tar = getArrFromResource(load_binary_resource("payload/tar"))
     payload_launchctl = getArrFromResource(load_binary_resource("payload/launchctl"))
     payload_offsets = getArrFromResource(load_binary_resource("payload/offsets.json"))
 
-    document.getElementById('bigButton').innerHTML = "Downloading Cydia"
+    document.getElementById('bigButton').innerHTML = "Downloading Dependencies"
     setTimeout(function () {
         payload_cydia = getArrFromResource(load_binary_resource("payload/Cydia.tar"))
         go();
@@ -345,7 +345,6 @@ function loadRes(){
       <a href="javascript:loadRes()"> JAILBREAK</a>
     </div>
     <br>
-    <div id="shasums">
-      CREATED BY TIHMSTAR :<br>
-      RECREATED BY AMIRRAMOS TO MAKE IN UIWEBVIEW
+    <div id="html">
+      THIS IS ORIGINAL FROM JAILBREAKME103
     </div>

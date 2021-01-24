@@ -3,18 +3,18 @@ Version: 1.0.0
 Architecture: iphoneos-arm
 Maintainer: amirramos <amirramos39@gmail.com>
 Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
-Filename: ./debs/com.amir.theosinstaller_1.0.0_iphoneos-arm.deb
-Size: 5348
-MD5sum: cdc64e8334952ec15fae7fe6a1877c4d
-SHA1: 7501b190e9f79477d6af0fa5695b5003432a2200
-SHA256: e4aeee6160d7ec8b2a59c64d914af6951d241204d3c6faa72acca4cc6f49edaa
+Filename: ./debs/com.amirramos.theos.deb
+Size: 2210
+MD5sum: 88db1d57461f03a7b0f1c2e5711fb954
+SHA1: 28a3fa64d0b23310ed63de0f0b5678ca1d21efaa
+SHA256: ef0fb3863fa7deefa5774ad60f9675ed69433a521834a6c48de12226e2b43afc
 Section: Utilities
 Homepage: http://amirhacks.github.io/
 Description: Make Cydia Tweaks Without Computer
 Tag: purpose::uikit
 Author: amirramos <amirramos39@gmail.com>
 Dev: amirramos
-Icon: file:///Debian/AppIcon29x29@2x.png
+Icon: https://amirhacks.github.io/repo/Icon/AppIcon29x29@2x.png
 Name: Theos
 Sponsor: amirramos <amirramos39@gmail.com>
 

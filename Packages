@@ -1,3 +1,23 @@
+Package: com.amir.theosinstaller
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: amirramos <amirramos39@gmail.com>
+Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Filename: ./debs/com.amir.theosinstaller_1.0.0_iphoneos-arm.deb
+Size: 5348
+MD5sum: cdc64e8334952ec15fae7fe6a1877c4d
+SHA1: 7501b190e9f79477d6af0fa5695b5003432a2200
+SHA256: e4aeee6160d7ec8b2a59c64d914af6951d241204d3c6faa72acca4cc6f49edaa
+Section: Utilities
+Homepage: http://amirhacks.github.io/
+Description: Make Cydia Tweaks Without Computer
+Tag: purpose::uikit
+Author: amirramos <amirramos39@gmail.com>
+Dev: amirramos
+Icon: file:///Debian/AppIcon29x29@2x.png
+Name: Theos
+Sponsor: amirramos <amirramos39@gmail.com>
+
 Package: com.amirramos.changelocktext
 Version: 0.0.1-1+debug
 Architecture: iphoneos-arm
@@ -14,20 +34,4 @@ Description: An Awesome Mobilesusbtrate Tweak
 Author: amirramos
 Depiction: https://amirhacks.github.io/repo/depiction/ChangeLockText.html
 Name: ChangeLockText
-
-Package: theosinstaller
-Version: 1.0.2
-Architecture: iphoneos-arm
-Maintainer: Jake James
-Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
-Filename: ./debs/theosinstaller_1.0.2_iphoneos-arm.deb
-Size: 2228
-MD5sum: ebc2c4fcff4f83c6635cb32d263cda38
-SHA1: 8d9f00ef14dfd0484ceb6baae3097a37ae1a1bef
-SHA256: c085fd8f2eeb6abd1455c2a76fcd75d7b0d9c18d2733eea7513fb3c2bfdfea82
-Section: Utilities
-Description: Install theos and setup everything you need with one click! Works on iOS 11, 12 and 13, unc0ver and checkra1n. Supports compiling arm64e. Usage (run as root): theosinstaller sdk_version_here (example: theosinstaller 10.3)
-Tag: role::hacker
-Author: amireamos
-Name: theosinstaller
 

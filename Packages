@@ -5,14 +5,14 @@ Maintainer: amirramos <amirramos39@gmail.com>
 Installed-Size: 328
 Depends: mobilesubstrate
 Filename: ./debs/3dtouch12_2.0.0-1+debug_iphoneos-arm.deb
-Size: 42708
-MD5sum: 65650948a21b53fe7c301f7d4024b620
-SHA1: 3548cdbc47f3a70c36d6d2ff670af2fd72be9ab4
-SHA256: d488fa1c22c149705abc2c4d1eb0ebb2a6d8461622a32b625ea742a31832aa4e
+Size: 42730
+MD5sum: 28fdfc73c5e941866aa42a3d57fc5fd6
+SHA1: 235eab427eed106f959ddd95bd46530df8491000
+SHA256: daef97e4857148585d662bbe15ec981827357cadc15764b1e84977757bf6bf46
 Section: Tweaks
 Description: Enable 3D touch shortcuts on homescreen for older devices.
 Author: amirramos
-Depiction: https://amirhacks.github.io/depiction/3dtouch12.html
+Depiction: https://amirhacks.github.io/repo/depiction/3dtouch12.html
 Name: 3dtouch12
 
 Package: com.amir.theosinstaller

@@ -1,3 +1,20 @@
+Package: 3dtouch12
+Version: 2.0.0-1+debug
+Architecture: iphoneos-arm
+Maintainer: amirramos <amirramos39@gmail.com>
+Installed-Size: 328
+Depends: mobilesubstrate
+Filename: ./debs/3dtouch12_2.0.0-1+debug_iphoneos-arm.deb
+Size: 42708
+MD5sum: 65650948a21b53fe7c301f7d4024b620
+SHA1: 3548cdbc47f3a70c36d6d2ff670af2fd72be9ab4
+SHA256: d488fa1c22c149705abc2c4d1eb0ebb2a6d8461622a32b625ea742a31832aa4e
+Section: Tweaks
+Description: Enable 3D touch shortcuts on homescreen for older devices.
+Author: amirramos
+Depiction: https://amirhacks.github.io/depiction/3dtouch12.html
+Name: 3dtouch12
+
 Package: com.amir.theosinstaller
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -17,21 +34,4 @@ Dev: amirramos
 Icon: https://amirhacks.github.io/repo/Icon/AppIcon29x29@2x.png
 Name: Theos
 Sponsor: amirramos <amirramos39@gmail.com>
-
-Package: com.amirramos.changelocktext
-Version: 0.0.1-1+debug
-Architecture: iphoneos-arm
-Maintainer: amirramos
-Installed-Size: 364
-Depends: mobilesubstrate
-Filename: ./debs/com.amirramos.changelocktext_0.0.1-1+debug_iphoneos-arm.deb
-Size: 58454
-MD5sum: 18f2fda4980362acdd26ae1e086b7bd9
-SHA1: 21f93e772c93d87cff042cf8060e9dfce9e35a77
-SHA256: 501e7e6fc77aa892420deacb223da870686130b7e50897d6eb45273c003b180e
-Section: Tweaks
-Description: An Awesome Mobilesusbtrate Tweak
-Author: amirramos
-Depiction: https://amirhacks.github.io/repo/depiction/ChangeLockText.html
-Name: ChangeLockText
 

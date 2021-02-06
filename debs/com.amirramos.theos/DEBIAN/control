@@ -1,0 +1,14 @@
+Author: amirramos <amirramos39@gmail.com>
+Maintainer: amirramos <amirramos39@gmail.com>
+Name: Theos
+Package: com.amir.theosinstaller
+Depends: clang-10, clang, odcctools, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, make, perl
+Section: Utilities
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Make Cydia Tweaks Without Computer
+Homepage: http://amirhacks.github.io/
+Sponsor: amirramos <amirramos39@gmail.com>
+dev: amirramos
+Tag: purpose::uikit
+Icon: https://amirhacks.github.io/repo/Icon/AppIcon29x29@2x.png

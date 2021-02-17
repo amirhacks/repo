@@ -52,3 +52,17 @@ Author: amirramos
 Depiction: https://amirhacks.github.io/repo/depiction/changelocktext.html
 Name: ChangeLockText
 
+Package: com.amirramos.php
+Version: 6.0
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: curl, libxml2
+Filename: ./debs/com.amirramos.php_6.0_iphoneos-arm.deb
+Size: 4620374
+MD5sum: cdf6a865c6ae6d46e4cc19fb7a6c205c
+SHA1: 88779e6309a8b2de34010acbbf3f21035cc75265
+SHA256: 9fd77191cfeb8da1ed2d2cf422837b938bda2aec115af054307cfbc35cadea75
+Section: Development
+Description: overly popular HTML templating language
+Name: PHP: Hypertext Preprocessor
+

@@ -1,1 +1,0 @@
-sh /var/mobile/repo/debs/com.amirramos.theos/File.sh
